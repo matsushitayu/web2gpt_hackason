@@ -18,6 +18,18 @@ sequenceDiagram
 
 # 動作には
 
+リポジトリをクローンしてカレントディレクトリを移動
+```
+git clone https://github.com/matsushitayu/web2gpt_hackason.git
+cd web2gpt_hackaso
+```
+
+venv環境を作って有効にする
+```
+python -m venv venv
+venv\Scripts\activate
+```
+
 必要なパッケージをインストール
 ```
 pip install -r requirements.txt
@@ -42,4 +54,4 @@ Chromeをデベロッパーモードにして、/chromeextension/にあるChrome
 これで使えるようになるはずです。
 
 # クラウドへのデプロイが便利
-私はAzure Functionsにデプロイして使っています。AWS LambdaやGoogle Cloud Functionsにも同様にデプロイ出来るはずです。localhostでサーバーを動かす必要がないのでとても便利です。おすすめです。
+私はAzure Functionsにデプロイして使っています。AWS LambdaやGoogle Cloud Functionsにも同様にデプロイ出来るはずです。localhostでサーバーを動かす必要がないのでとても便利です。おすすめです。なお、不正アクセスを避けるために、APIキーを使った認証などを併用することをお薦めいたします。
