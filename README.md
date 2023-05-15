@@ -21,7 +21,7 @@ sequenceDiagram
 リポジトリをクローンしてカレントディレクトリを移動
 ```
 git clone https://github.com/matsushitayu/web2gpt_hackason.git
-cd web2gpt_hackaso
+cd web2gpt_hackason
 ```
 
 venv環境を作って有効にする
