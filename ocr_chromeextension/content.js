@@ -14,7 +14,7 @@ function getSelectedTextAndImages() {
 }
 
 function postToAPI(data) {
-    const apiUrl = 'http://127.0.0.1:8000/make_summary/';
+    const apiUrl = 'http://127.0.0.1:8000/with_ocr/';
     const payload = {
         text: data.text,
         imageURLs: data.imageURLs,

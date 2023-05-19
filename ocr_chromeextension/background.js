@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
         id: 'extractData',
-        title: '選択範囲をGPTで要約してDiscord',
+        title: 'OCRもする！ 選択範囲をGPTで要約してDiscord',
         contexts: ['selection']
     });
 });

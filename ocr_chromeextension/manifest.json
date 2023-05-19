@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "選択範囲をAIで要約してDiscordに送る",
+  "name": "OCRもする！ 選択範囲をAIで要約してDiscordに送る",
   "version": "1.0",
   "description": "Extract selected text and image URLs from a webpage",
   "permissions": ["contextMenus", "activeTab"],
