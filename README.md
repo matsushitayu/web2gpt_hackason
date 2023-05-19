@@ -24,6 +24,7 @@ pip install -r requirements.txt
 ```
 
 main.pyにOpenAIのAPIキーと、DiscordのWebhook URLを設定
+
 OCRを使う場合は、Azure Computer Vison APIのAPIキーとエンドポイントを設定
 
 ```
