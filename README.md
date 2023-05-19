@@ -24,6 +24,7 @@ pip install -r requirements.txt
 ```
 
 main.pyにOpenAIのAPIキーと、DiscordのWebhook URLを設定
+OCRを使う場合は、Azure Computer Vison APIのAPIキーとエンドポイントを設定
 
 ```
 # OpenAIのAPIキー
@@ -37,7 +38,8 @@ webhook_url = 'https://discord.com/api/webhooks/＊＊＊＊＊＊＊＊＊＊?w
 uvicorn main:app --reload
 ```
 
-Chromeをデベロッパーモードにして、/chromeextension/にあるChrome拡張をインストール
+Chromeをデベロッパーモードにして、/chromeextension/にあるChrome拡張をインストール。
+/ocr_chromeextension/のほうはwith_ocrのエンドポイントに送る拡張です。
 
 これで使えるようになるはずです。
 
