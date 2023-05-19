@@ -5,3 +5,4 @@ typing
 openai
 requests
 pillow
+azure-cognitiveservices-vision-computervision
